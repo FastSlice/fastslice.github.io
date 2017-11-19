@@ -2,122 +2,30 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Overview
 
-[Link to another page](another-page).
+Prosthetics are a product in high demand. With an estimated 70,000 prosthetics designed every year, each ranging from $5,000 to $50,000, one would expect a single prosthetic to last their owner a long time. In reality, prosthetics get replaced every 3-5 years.
 
-There should be whitespace between paragraphs.
+Why so short a lifetime? Because the current prosthetic design process is riddled with errors:
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+1. **It's imprecise**. Most prosthetists physically touch amputated limbs to develop a molding.
+2. **It's laborious**. Patients have to wait weeks or months to receive their prosthetic.
+3. **It's ineffective**. Even when patients receive their limb, it may become uncomfortable due to changes in the body's shape and size.
 
-# [](#header-1)Header 1
+## A Better Way
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+A new design process being developed by researchers at the University of Michigan is trying to fix these problems by creating a reconfigurable prosthetic socket. The benefits are numerous:
+  
+* **Greater comfort**. Prosthetics can be adjusted according to how a patient's body changes.
+* **Lower cost**. Longer prosthetic lifetimes and fewer visits to the prosthetist makes for a happier patient.
+* **Faster delivery time**. A computerized design process gets patients their prosthetics quicker than ever.
 
-## [](#header-2)Header 2
+## 3DSlicer and FastSlice
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+At the heart of the design process for the reconfigurable prosthetic socket is [3DSlicer](https://www.slicer.org/), an open-source software program that helps turn limb scans into precise 3D models. These 3D models are then used to help fit the patient with a custom prosthetic socket.
 
-### [](#header-3)Header 3
+The problem with 3DSlicer is that it's laborious: researchers must manually mark off nerves and bones on thousands of cross-sections of a given limb. This annotation process alone takes 5-6 hours.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+The solution? FastSlice, an extension custom-built for 3DSlicer and the prosthetic design process. Using FastSlice, prosthetists can quickly select nerve and bone in patient CT scans, reducing the time needed to complete the annotation process by 80%.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+To view a demonstration, watch [this YouTube video](https://youtu.be/qJFSeH6n0QE).
