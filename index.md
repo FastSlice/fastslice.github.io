@@ -28,4 +28,4 @@ The problem with 3DSlicer is that it's laborious: researchers must manually mark
 
 The solution? FastSlice, an extension custom-built for 3DSlicer and the prosthetic design process. Using FastSlice, prosthetists can quickly select nerve and bone in patient CT scans, reducing the time needed to complete the annotation process by 80%.
 
-To view a demonstration, watch [this YouTube video](https://youtu.be/qJFSeH6n0QE).
+To view a demonstration, watch [this YouTube video](https://youtu.be/qJFSeH6n0QE?t=1m54s). To use, follow the [installation instructions](https://fastslice.github.io/install).
