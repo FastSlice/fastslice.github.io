@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Overview
+## Overview
 
 Prosthetics are a product in high demand. With an estimated 70,000 prosthetics designed every year, each ranging from $5,000 to $50,000, one would expect a single prosthetic to last their owner a long time. In reality, prosthetics get replaced every 3-5 years.
 
@@ -28,9 +28,20 @@ The problem with 3DSlicer is that it's laborious: researchers must manually mark
 
 The solution? FastSlice, an extension custom-built for 3DSlicer and the prosthetic design process. Using FastSlice, prosthetists can quickly select nerve and bone in patient CT scans, reducing the time needed to complete the annotation process by 80%.
 
-## Demo and Installation
+## Features
 
-To view a demonstration, watch [this YouTube video](https://youtu.be/qJFSeH6n0QE?t=1m54s). To use, follow the [installation instructions](https://fastslice.github.io/install).
+Features for our alpha release include:
+
+* [Bone and nerve selection](https://youtu.be/qJFSeH6n0QE?t=1m41s): users can identify a bone or nerve by clicking on it. FastSlice will fill in the rest.
+
+Features for our beta release include:
+
+* [Multi-slice support](https://www.youtube.com/watch?v=DYjxMnqFd-Y): users can now click once and have their annotation marked across dozens of slices.
+* [Full-limb support](https://www.youtube.com/watch?v=RRTbvi0riAI): in addition to selecting just bone or nerve, users can now select an entire limb by changing a few values. 
+
+## Installation
+
+To start using FastSlice, follow the [installation instructions](https://fastslice.github.io/install).
 
 ## Contribute
 
