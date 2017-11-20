@@ -9,3 +9,7 @@ layout: default
 3. Clone the repository for the FastSlice extension: `git clone https://github.com/FastSlice/Extension.git`.
 
 To test the extension, follow the instructions in [this YouTube video](https://youtu.be/qJFSeH6n0QE).
+
+For beta features, follow the instructions for:
+* [Multi-slice support](https://www.youtube.com/watch?v=DYjxMnqFd-Y).
+* [Full-limb support](https://www.youtube.com/watch?v=RRTbvi0riAI).
