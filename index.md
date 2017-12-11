@@ -46,8 +46,6 @@ Features for our omega release include:
 * [Status bar](https://youtu.be/TSEpF9ZIL9Q?t=1m15s): users can see annotation progress when multi-slice support is enabled.
 * An output console: users are informed whenever an error occurs.
 
-All features for omega can be viewed here.
-
 ## Installation
 
 To start using FastSlice, follow the [installation instructions](https://fastslice.github.io/install).
