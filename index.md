@@ -36,8 +36,17 @@ Features for our alpha release include:
 
 Features for our beta release include:
 
-* [Multi-slice support](https://www.youtube.com/watch?v=DYjxMnqFd-Y): users can now click once and have their annotation marked across dozens of slices.
-* [Full-limb support](https://www.youtube.com/watch?v=RRTbvi0riAI): in addition to selecting just bone or nerve, users can now select an entire limb by changing a few values. 
+* [Multi-slice support](https://www.youtube.com/watch?v=DYjxMnqFd-Y): users can click once and have their annotation marked across dozens of slices.
+* [Full-limb support](https://www.youtube.com/watch?v=RRTbvi0riAI): in addition to selecting just bone or nerve, users can select an entire limb by changing a few values. 
+
+Features for our omega release include:
+* [A new UI](https://youtu.be/TSEpF9ZIL9Q?t=9s): users can toggle quickly between tissue mode and bone/nerve mode, and can click the "Visit Website" button for quick access to documentation.
+* [Outline preview](https://youtu.be/TSEpF9ZIL9Q?t=26s): users can preview what an annotation will look like before committing to it, eliminating the need to click the undo button.
+* Smoother edges: an enhanced annotation algorithm makes outlines less choppy.
+* [Status bar](https://youtu.be/TSEpF9ZIL9Q?t=1m15s): users can see annotation progress when multi-slice support is enabled.
+* An output console: users are informed whenever an error occurs.
+
+All features for omega can be viewed here.
 
 ## Installation
 
